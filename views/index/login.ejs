@@ -1,0 +1,28 @@
+<%- include('../include/head.ejs') %>
+<link rel="stylesheet" href="../../css/index.css" />
+<body>
+  <div class="container">
+    <h2>Home</h2>
+    <!-- <a href="/post">Register</a> -->
+    <form action="/login" method="post">
+      
+      <div class="field">
+        <input type="email" name="email" placeholder="Email" />
+      </div>
+      <div class="field">
+        <input type="text" name="password" placeholder="Password" />
+      </div>
+      
+
+     
+
+      <div class="field">
+        <button type="submit">Login</button>
+      </div>
+      <a href="/post">singup</a>
+    </form>
+  </div>
+
+  <!-- <%- include('../include/end.ejs') %> -->
+</body>
+</html>
